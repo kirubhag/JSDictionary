@@ -1,0 +1,99 @@
+<section class="container-fluid content-wrap">
+
+    <h3>What you want to know ?</h3>
+
+    <!--Search Section-->
+    <section class="row">
+        <article class="col-sm-2">
+            <span>JS Keyword</span>
+        </article>
+        <article class="col-sm-7">
+            <section class="search-wrap">
+                <input class="form-control" ng-model="search_keyword" id="search_keyword" type="text"
+                       placeholder="toString"
+                       ng-enter="searchTheKeyWord(this)"/>
+            </section>
+        </article>
+        <article class="col-sm-3">
+            <section class="search-wrap">
+                <span class="btn btn-info" ng-click="searchTheKeyWord(this)">Search</span>
+            </section>
+        </article>
+    </section>
+
+    <hr/>
+
+    <section class="search-result">
+
+        <!--Syntax Section-->
+        <h3>Syntax</h3>
+
+        <section class="row">
+            <article class="col-sm-1"></article>
+            <article class="col-sm-11">
+                <section class="syntax-wrap" id="syntax" ng-bind-html="syntax">
+                    strConversionVariable.<span class="highELE">toString()</span>;
+                </section>
+            </article>
+        </section>
+        <hr/>
+
+        <!--Example Section-->
+        <h3>Example</h3>
+
+        <section class="row">
+            <article class="col-sm-1"></article>
+            <article class="col-sm-11">
+                <section class="syntax-wrap" id="example" ng-bind-html="example">
+                    <span class="highELE">var</span> bool = <span class="highVAL">true</span>;<br>
+                    <span class="highELE">var</span> x = bool.toString();
+                </section>
+            </article>
+        </section>
+
+        <hr/>
+
+        <!--Explanation Section-->
+        <h3>Explanation</h3>
+
+        <section class="row">
+            <article class="col-sm-1"></article>
+            <article class="col-sm-11">
+                <section class="syntax-wrap" id="explanation" ng-bind-html="explanation">
+                    <p>This method is used to Convert a Boolean value to a string.</p>
+
+                    <p>bool is a variable with type Boolean.</p>
+
+                    <p>We can convert this as String variable by calling the <span class="highELE">toString()</span>
+                        function.</p>
+                </section>
+            </article>
+        </section>
+
+        <hr/>
+
+        <!--Output Section-->
+        <h3>Output Will be</h3>
+
+        <section class="row">
+            <article class="col-sm-1"></article>
+            <article class="col-sm-11">
+                <section class="syntax-wrap" id="output" ng-bind-html="output">
+                </section>
+            </article>
+        </section>
+
+    </section>
+
+    <section class="no-result-found">
+        <section class="row">
+            <article class="col-sm-1"></article>
+            <article class="col-sm-11">
+                <p class="text-center" style="color: red">No result found.</p>
+            </article>
+        </section>
+    </section>
+
+</section>
+
+<p></p>

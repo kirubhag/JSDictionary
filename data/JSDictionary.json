@@ -1,0 +1,87 @@
+{
+    "JSDictionary": [
+        {
+            "JSDictId": "10",
+            "JSKeyword": "getElementById",
+            "Explanation": "<p>This is one of the DOM function.Which is used to get the specified ID selector.</p>",
+            "Syntax": "document.<span class=\"highELE\">getElementById</span>(\"idName\")",
+            "Example": "<span class=\"highELE\">var</span> <span class=\"highVAL\">DivId</span> = document.<span class=\"highELE\">getElementById</span>(\"main_div\");<br />DivId.<span class=\"highELE\">innerHTML</span> = \"Hello JavaScript\";",
+            "Output": "<span class=\"highCOM\">Hello JavaScript</span>"
+
+        },
+        {
+            "JSDictId": "11",
+            "JSKeyword": "getElementsByClassName",
+            "Explanation": "<p>This is one of the DOM function.Which is used to get the specified Class selector.</p>",
+            "Syntax": "document.<span class=\"highELE\">getElementsByClassName</span>(\"className\")",
+            "Example": "<span class=\"highELE\">var</span> <span class=\"highVAL\">DivId</span> = document.<span class=\"highELE\">getElementsByClassName</span>(\"menu\");<br />DivId.<span class=\"highELE\">innerHTML</span> = \"Hello JavaScript\";",
+            "Output": "<span class=\"highCOM\">Hello JavaScript</span>"
+
+        },
+        {
+            "JSDictId": "12",
+            "JSKeyword": "querySelector",
+            "Explanation": "<p>This is one of the DOM function.Which is used to get the specified selector.But in this method you need to use the # for ID and use the '.' for Class Selector</p>",
+            "Syntax": "document.<span class=\"highELE\">querySelector</span>(\"idName / className\")",
+            "Example": "<span class=\"highELE\">var</span> <span class=\"highVAL\">DivId</span> = document.<span class=\"highELE\">querySelector</span>(\"#main_div\");<br />DivId.<span class=\"highELE\">innerHTML</span> = \"Hello JavaScript\";",
+            "Output": "<span class=\"highCOM\">Hello JavaScript</span>"
+
+        },
+        {
+            "JSDictId": "13",
+            "JSKeyword": "undefined",
+            "Explanation": "<p>In JS variables that are declared without a value will have the value undefined.<br />The variable carName will have the value undefined after the execution of the following statement</p>",
+            "Syntax": "<span class=\"highELE\" ng-click = \"KeywordClickHandler\">var</span> carName = undefined; or <span class=\"highELE\" ng-click = \"KeywordClickHandler\">var</span> carName;",
+            "Example": "<span class=\"highELE\" ng-click = \"KeywordClickHandler\">var</span> carName;<br /><span class=\"highELE\">console</span>.log(carName);",
+            "Output": "<span class=\"highCOM\">undefined</span>"
+        },
+        {
+            "JSDictId": "14",
+            "JSKeyword": "null",
+            "Explanation": "<p>The value of a variable with no value is <strong>undefined</strong>.<br />Variables can be emptied by setting the value to <strong>null</strong>.</p>",
+            "Syntax": "<span class=\"highELE\" ng-click = \"KeywordClickHandler\">var</span> variableName = null;",
+            "Example": "<span class=\"highELE\" ng-click = \"KeywordClickHandler\">var</span> person = null;<br /><span class=\"highELE\">console</span>.log(person);",
+            "Output": "<span class=\"highCOM\">null</span>"
+        },
+        {
+            "JSDictId": "15",
+            "JSKeyword": "var",
+            "Explanation": "The \"var\" keyword in front of a variable will basically declare that variable within the current scope. But, if that \"var\" keyword is missing, Javascript will search up the scope chain to see if there is a variable with that name in a different scope. And, since it finds a variable with the same name – \"testVar\" – in the global scope, Javascript will use that variable instead of declaring a new one local to the function.",
+            "Syntax": "<span class=\"highELE\">var</span> variable name;",
+            "Example": "<span class=\"highELE\">var</span> testVar = <span class=\"highVAL\">10</span>; //this has global scope <br /> <span class=\"highELE\">function</span> scopeTest() { <br /> testVar = <span class=\"highVAL\">20</span>; //this variable now has no \"var\" in front of it <br /><span class=\"highELE\">console</span>.log(testVar); //WHAT DOES THIS LINE OUTPUT? <br />} <br />scopeTest(); <br /><span class=\"highELE\">console</span>.log(testVar); //WHAT DOES THIS LINE OUTPUT?",
+            "Output": "<span class=\"highCOM\">20<br />20</span>"
+        },
+        {
+            "JSDictId": "1",
+            "JSKeyword": "Function",
+            "Explanation": "<p>A better way to create a function from a string is by using Function <span class=\"highELE\" ng-click = \"KeywordClickHandler\">Keyword</span>.This has as advantage / disadvantage that variables in the current scope (if not global) do not apply to the newly constructed function.Passing arguments is also possible too</p>",
+            "Syntax": "<span class=\"highELE\" ng-click = \"KeywordClickHandler\">Function</span>(Function statements)",
+            "Example": "<span class=\"highELE\" ng-click = \"KeywordClickHandler\">var</span> addition = <span class=\"highELE\" ng-click = \"KeywordClickHandler\">Function</span>('a', 'b', 'return a + b;');<br /><span class=\"highELE\">console</span>.log('A+B: '+addition(5, 3));</span>",
+            "Output": "<span class=\"highCOM\">\"A + B: 8\"</span>"
+        },
+        {
+            "JSDictId": "2",
+            "JSKeyword": "Arrays",
+            "Explanation": "JavaScript arrays are used to store multiple values in a single variable.",
+            "Syntax": "var variable name=['declare values here'];",
+            "Example": " var cars = [\"Saab\", \"Volvo\", \"BMW\"];<br />var cars = new Array(\"Saab\", \"Volvo\", \"BMW\");",
+            "Output": ""
+        },
+        {
+            "JSDictId": "3",
+            "JSKeyword": "toString",
+            "Explanation": "<p>This method is used to Convert a Boolean value to a string.</p><p>bool is a variable with type Boolean.</p><p>We can convert this as String variable by calling the <span class=\"highELE\">toString()</span> function.</p>",
+            "Syntax": "arrayName.<span class=\"highELE\">toString()</span>;",
+            "Example": "<span class=\"highELE\">var</span> bool = <span class=\"highVAL\">true</span>;<br><span class=\"highELE\">var</span> x = bool.toString();<br /><span class=\"highELE\">console</span>.log(x);",
+            "Output": "<span class=\"highCOM\">\"true\"</span>"
+        },
+        {
+            "JSDictId": "4",
+            "JSKeyword": "join",
+            "Explanation": "<p>This method is used to Convert a Boolean value to a string.</p><p>bool is a variable with type Boolean.</p><p>We can convert this as String variable by calling the <span class=\"highELE\">toString()</span> function.</p>",
+            "Syntax": "arrayName.<span class=\"highELE\">join('join separator')</span>;",
+            "Example": "<span class=\"highELE\">var</span> fruits = [<span class=\"highVAL\">Banana</span>, <span class=\"highVAL\">Orange</span>, <span class=\"highVAL\">Apple</span>, <span class=\"highVAL\">Mango</span>];<br>console.log(fruits.<span class=\"highELE\">join</span>(', '));",
+            "Output": "<span class=\"highCOM\">Banana, Orange, Apple, Mango</span>"
+        }
+    ]
+}

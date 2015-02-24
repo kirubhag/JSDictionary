@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JS Dictionary</title>
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/custom/style.css"/>
+</head>
+<body id="body_wrap" ng-app="JSDictionary">
+
+<section class="container-fluid JSDictionary-wrap NP">
+    <section ng-include="'app/template/Header.html'"></section>
+
+    <section ng-view=""></section>
+
+    <section ng-include="'app/template/Footer.html'"></section>
+</section>
+
+<script src="js/angular/angular.js"></script>
+<script src="js/angular/angular-route.js"></script>
+<script src="js/angular/angular-sanitize.js"></script>
+<script src="js/jquery/jquery.min.js"></script>
+<script src="js/custom/JSDictionaryConfig.js"></script>
+<script src="js/custom/JSDictionary.js"></script>
+</body>
+</html>

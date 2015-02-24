@@ -1,0 +1,122 @@
+/*Common CSS are written here*/
+.NP {
+    padding: 0;
+}
+
+.NM {
+    margin: 0;
+}
+
+.FL {
+    float: left;
+}
+
+.FR {
+    float: right;
+}
+
+.font8 {
+    font-size: 8px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.HideMe {
+    display: none;
+}
+
+.ShowMe {
+    display: block;
+}
+
+.highCOM {
+    color: green;
+}
+
+.highELE {
+    color: brown;
+    cursor: pointer;
+}
+
+.highATT {
+    color: crimson;
+}
+
+.highVAL {
+    color: mediumblue;
+}
+
+.highGLB {
+    color: #CC9900;
+}
+
+.highLT, .highGT {
+    color: blue;
+}
+
+/*Common CSS are end here*/
+
+body {
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    border-top: 2px solid hsl(0, 0%, 93%);
+}
+
+h3 {
+    margin: 10px 0;
+    color: #31B0D5;
+}
+
+.JSDictionary-wrap {
+
+}
+
+.main-wrap {
+    margin: 0 auto;
+    background: #31B0D5;
+}
+
+header, footer, .content-wrap {
+    margin: 0 auto !important;
+    width: 750px;
+}
+
+header h2 {
+    margin: 0;
+    line-height: 60px;
+    color: #FFF;
+}
+
+.footer-wrap {
+    margin: 0 auto;
+    background: #434343;
+    text-align: center;
+    color: #FFF;
+}
+
+.split-bar {
+    margin: 2px 0;
+    border: 2px solid #CCCCCC;
+}
+
+.content-wrap {
+    margin: 0 auto;
+    min-height: 710px;
+    background: #FFF;
+    box-shadow: 0px 10px 15px #ccc;
+}
+
+.syntax-wrap {
+    padding-left: 15px;
+    min-height: 20px;
+    border-left: 5px solid #d74032; /*#31B0D5*/
+}
+
+.search-result, .no-result-found {
+    display: none;
+}
