@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88d01e8-43a4-4f23-b7cd-86bad0dc69e5" name="Default" comment="Settings page added.&#10;Contributors page also added.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/FEZ-04-512.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Icon_CommunityPortal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/Kewords List.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/clear-cache-shortcut-chrome-0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icons_icon-team.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pdf-icon 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/producteev-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/settings - 2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/settings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/sprite.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wow-contribution-icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/template/Contributors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/template/Settings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/icons/js-icon128.psd" afterPath="$PROJECT_DIR$/assets/icons/js-icon128.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/template/Header.html" afterPath="$PROJECT_DIR$/app/template/Header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom/JSDictionary.js" afterPath="$PROJECT_DIR$/js/custom/JSDictionary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/JSDictionary.json" afterPath="$PROJECT_DIR$/data/JSDictionary.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom/style.css" afterPath="$PROJECT_DIR$/css/custom/style.css" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\assets\icons\icon-old.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\assets\icons\icon128-old.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\assets\icons\js-icon128.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\assets\icons\sprite.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\data\Kewords List.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\1280-800.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\1280-800.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\1400-560.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\1400-560.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\920-680.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\920-680.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\FEZ-04-512.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\Icon_CommunityPortal.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\clear-cache-shortcut-chrome-0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\icons_icon-team.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\pdf-icon 1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\producteev-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\settings - 2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\wow-contribution-icon.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JSLib.iws" />
@@ -258,7 +259,11 @@
       <created>1424804858224</created>
       <updated>1424804858224</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Settings page added.&#10;Contributors page also added.">
+      <created>1424852012532</created>
+      <updated>1424852012532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -266,7 +271,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56179774" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59229535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -604,20 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4938704" vertical-offset="1197" max-vertical-offset="1768">
           <caret line="87" column="35" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/temp1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1218638" vertical-offset="0" max-vertical-offset="558">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2084063" vertical-offset="0" max-vertical-offset="571">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
