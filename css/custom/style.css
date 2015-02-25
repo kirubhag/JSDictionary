@@ -15,6 +15,18 @@
     float: right;
 }
 
+.PT4 {
+    padding-top: 4px;
+}
+
+.ML105 {
+    margin-left: 105px;
+}
+
+.CP {
+    cursor: pointer;
+}
+
 .font8 {
     font-size: 8px;
 }
@@ -67,7 +79,7 @@ hr {
     border-top: 2px solid hsl(0, 0%, 93%);
 }
 
-h3 {
+h3, h4 {
     margin: 10px 0;
     color: #31B0D5;
 }
@@ -119,4 +131,120 @@ header h2 {
 
 .search-result, .no-result-found {
     display: none;
+}
+
+.settings-wrap {
+    padding: 0 50px;
+    margin-bottom: 8px !important;
+    width: 750px;
+    margin: 0 auto;
+    background: #FFF;
+    height: 710px;
+    box-shadow: 0px 10px 15px #ccc;
+}
+
+.setting-box {
+    width: 170px;
+    height: 180px;
+    padding: 15px;
+    cursor: pointer;
+    background: #FFF;
+    border: 1px solid #ccc;
+    /*    box-shadow: 0px 10px 15px #ccc;*/
+}
+
+.setting-box p {
+    margin-top: 15px;
+    padding-top: 4px;
+    border-top: 1px solid #ccc;
+}
+
+.icon-cont {
+    display: block;
+    background: url('../../images/sprite.png') no-repeat center left;
+    background-position: 0 0;
+    width: 140px;
+    height: 112px;
+}
+
+.icon-trash {
+    display: block;
+    background: url('../../images/sprite.png') no-repeat center left;
+    background-position: -137px 0;
+    width: 140px;
+    height: 112px;
+}
+
+.icon-circle {
+    margin-left: 12px;
+    padding: 35px;
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    background: #31B0D5;
+    border-radius: 250px;
+    width: 115px;
+    height: 112px;
+}
+
+.menu-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #31B0D5;
+    height: 28px;
+    width: 170px;
+}
+
+.contrib-box {
+    width: 290px;
+    height: 85px;
+    padding: 10px;
+    cursor: pointer;
+    background: #FFF;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 10px 15px 0 0;
+}
+
+.contrib-box p {
+    margin: 0;
+}
+
+.user-snap {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    color: #FFF;
+    background: #ccc;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.user-name {
+    display: block;
+}
+
+.user-email {
+
+}
+
+.bg-a {
+    background: green;
+}
+
+.bg-b {
+    background: crimson;
+}
+
+.bg-c {
+    background: mediumblue;
+}
+
+.bg-d {
+    background: #CC9900;
 }

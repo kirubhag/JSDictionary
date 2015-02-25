@@ -1,0 +1,26 @@
+<!--Contributors templates goes here-->
+<section class="settings-wrap">
+    <section class="container-fluid">
+        <header class="row">
+            <article class="NP col-sm-3">
+                <h4 class="CP"><span ng-click="goToSettings()">Settings / </span><span ng-click="goToContributors()">Contributors</span>
+                </h4>
+            </article>
+            <article class="col-sm-6 text-center"></article>
+            <article class="col-sm-3"></article>
+        </header>
+
+        <section class="row">
+            <article class="col-sm-12">
+                <section class="contrib-box" ng-repeat="Contributor in Contributors">
+                    <p class="text-center">
+                        <span class="user-snap" ng-class="getClassForContributor(Contributor.color)">{{Contributor.name.substr(0,1)}}</span>
+                    </p>
+                    <span class="user-name" ng-bind="Contributor.name"></span>
+                    <span class="user-email" ng-show="privacyMng(Contributor.privacy)"
+                          ng-bind="Contributor.email"></span>
+                </section>
+            </article>
+        </section>
+    </section>
+</section>

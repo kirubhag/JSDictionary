@@ -52,6 +52,22 @@
             "Output": "<span class=\"highCOM\">20<br />20</span>"
         },
         {
+            "JSDictId": "16",
+            "JSKeyword": "indexOf",
+            "Explanation": "<p>Finding a String in a String.The <span class=\"highELE\">indexOf</span>() method returns the index of (the position of) the <strong>first</strong> occurrence of a specified text in a string.Both the indexOf(), and the lastIndexOf() methods return -1 if the text is not found.</p>",
+            "Syntax": "string.<span class=\"highELE\">indexOf</span>('Searching String');",
+            "Example": "<span class=\"highELE\">var</span> str = \"Please locate where 'locate' occurs!\";<br /><span class=\"highELE\">var</span> pos = str.<span class=\"highELE\">indexOf</span>('locate');<br /><span class=\"highELE\">console</span>.log('Pos: '+pos);",
+            "Output": "Pos: 7"
+        },
+        {
+            "JSDictId": "17",
+            "JSKeyword": "lastIndexOf",
+            "Explanation": "<p>Finding a String in a String.The <span class=\"highELE\">lastIndexOf</span>() method returns the index of (the position of) the <strong>last</strong> occurrence of a specified text in a string.Both the indexOf(), and the lastIndexOf() methods return -1 if the text is not found.</p>",
+            "Syntax": "string.<span class=\"highELE\">lastIndexOf</span>('Searching String');",
+            "Example": "<span class=\"highELE\">var</span> str = \"Please locate where 'locate' occurs!\";<br /><span class=\"highELE\">var</span> pos = str.<span class=\"highELE\">lastIndexOf</span>('locate');<br /><span class=\"highELE\">console</span>.log('Pos: '+pos);",
+            "Output": "Pos: 21"
+        },
+        {
             "JSDictId": "1",
             "JSKeyword": "Function",
             "Explanation": "<p>A better way to create a function from a string is by using Function <span class=\"highELE\" ng-click = \"KeywordClickHandler\">Keyword</span>.This has as advantage / disadvantage that variables in the current scope (if not global) do not apply to the newly constructed function.Passing arguments is also possible too</p>",

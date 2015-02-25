@@ -1,0 +1,36 @@
+<!--Settings templates goes here-->
+<section class="settings-wrap">
+    <section class="container-fluid">
+        <header class="row">
+            <article class="NP col-sm-3">
+                <h4 class="CP">Settings</h4>
+            </article>
+            <article class="col-sm-6 text-center"></article>
+            <article class="col-sm-3"></article>
+        </header>
+
+        <section class="row">
+            <article class="col-sm-4">
+                <section class="setting-box" ng-click="goToContributors()">
+                    <span class="icon-cont"></span>
+
+                    <p class="text-center"><span class="menu-title">Contributors</span></p>
+                </section>
+            </article>
+            <article class="col-sm-4">
+                <section class="setting-box" ng-click="clearCache()">
+                    <span class="icon-trash"></span>
+
+                    <p class="text-center"><span class="menu-title">Clear Cache</span></p>
+                </section>
+            </article>
+            <article class="col-sm-4">
+                <section class="setting-box">
+                    <span ng-bind="total_num_keywords" class="icon-circle"></span>
+
+                    <p class="text-center"><span class="menu-title">Keywords</span></p>
+                </section>
+            </article>
+        </section>
+    </section>
+</section>

@@ -6,6 +6,14 @@ JSDictionary.config(function ($routeProvider) {
         .when("/", {
             templateUrl: "app/template/JSDictionary.html",
             controller: "JSDictionaryMainCtrl"
+        })
+        .when("/settings", {
+            templateUrl: "app/template/Settings.html",
+            controller: "SettingsCtrl"
+        })
+        .when("/settings/contributors", {
+            templateUrl: "app/template/Contributors.html",
+            controller: "ContributorsCtrl"
         });
 
 
@@ -102,6 +110,112 @@ JSDictionary.controller("JSDictionaryMainCtrl", ["$scope", "$location", "$log", 
     $scope.KeywordClickHandler = function (self) {
         console.log("Test");
         //$('#search_keyword').val($(this).html()).trigger('click');
+    };
+
+}]);
+
+JSDictionary.controller("SettingsCtrl", ["$scope", "$location", "$log", "$http", "$sce", function ($scope, $location, $log, $http, $sce) {
+
+    var SettingsCtrl = (function () {
+        var SettingsCtrl = {};
+
+        SettingsCtrl.getNumberOfKeyWordsCnt = function () {
+            return (localStorage.Data) ? JSON.parse(localStorage.Data).length : 0;
+        };
+
+        SettingsCtrl.clearCache = function () {
+            localStorage.clear();
+            $scope.total_num_keywords = SettingsCtrl.getNumberOfKeyWordsCnt();
+        };
+
+        SettingsCtrl.goToContributors = function () {
+            window.location.hash = "/settings/contributors";
+        };
+
+        return SettingsCtrl;
+    })();
+
+    $scope.total_num_keywords = SettingsCtrl.getNumberOfKeyWordsCnt();
+    $scope.getNumberOfKeyWordsCnt = SettingsCtrl.getNumberOfKeyWordsCnt();
+
+    $scope.clearCache = function () {
+        SettingsCtrl.clearCache();
+    };
+
+    $scope.goToContributors = function () {
+        SettingsCtrl.goToContributors();
+    };
+}]);
+
+JSDictionary.controller("ContributorsCtrl", ["$scope", "$location", "$log", "$http", "$sce", function ($scope, $location, $log, $http, $sce) {
+
+    var ContributorsCtrl = (function () {
+        var ContributorsCtrl = {};
+
+        ContributorsCtrl.list = [
+            {
+                "name": "Kirubhakaran",
+                "email": "kirubhag@gmail.com",
+                "color": 1,
+                "privacy": 1,
+                "visibile": true
+            },
+            {
+                "name": "Marikumar",
+                "email": "marikumar07@gmail.com",
+                "color": 2,
+                "privacy": 1,
+                "visibile": true
+            },
+            {
+                "name": "Raji",
+                "email": "raji@gmail.com",
+                "color": 3,
+                "privacy": 2,
+                "visibile": false
+            }
+        ];
+
+        ContributorsCtrl.goToSettings = function () {
+            window.location.hash = "/settings";
+        };
+
+        ContributorsCtrl.getClassForContributor = function (classVal) {
+            switch (parseInt(classVal)) {
+                case 1:
+                    return "bg-a";
+                    break;
+                case 2:
+                    return "bg-b";
+                    break;
+                case 3:
+                    return "bg-c";
+                    break;
+                case 4:
+                    return "bg-d";
+                    break;
+            }
+        };
+
+        ContributorsCtrl.privacyMng = function (privacy) {
+            return (parseInt(privacy) === 1) ? true : false;
+        };
+
+        return ContributorsCtrl;
+    })();
+
+    $scope.Contributors = ContributorsCtrl.list;
+
+    $scope.goToSettings = function () {
+        ContributorsCtrl.goToSettings();
+    };
+
+    $scope.getClassForContributor = function (classVal) {
+        return ContributorsCtrl.getClassForContributor(classVal);
+    };
+
+    $scope.privacyMng = function (privacy) {
+        return ContributorsCtrl.privacyMng(privacy);
     };
 
 }]);
