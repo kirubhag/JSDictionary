@@ -134,7 +134,7 @@ header h2 {
 }
 
 .settings-wrap {
-    padding: 0 50px;
+    padding: 0 10px;
     margin-bottom: 8px !important;
     width: 750px;
     margin: 0 auto;
@@ -198,7 +198,7 @@ header h2 {
 }
 
 .contrib-box {
-    width: 290px;
+    width: 335px;
     height: 85px;
     padding: 10px;
     cursor: pointer;
@@ -247,4 +247,14 @@ header h2 {
 
 .bg-d {
     background: #CC9900;
+}
+
+.bg-w {
+    background: #FFF !important;
+    color: #31B0D5 !important; 
+}
+
+.bg-click-imp {
+    background: #31B0D5 !important; 
+    color: #FFF !important; 
 }

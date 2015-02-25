@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d88d01e8-43a4-4f23-b7cd-86bad0dc69e5" name="Default" comment="Settings page added.&#10;Contributors page also added.">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\assets\icons\icon-old.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\assets\icons\icon128-old.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\assets\icons\js-icon128.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\assets\icons\sprite.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\data\Kewords List.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\1280-800.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\1280-800.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\1400-560.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\1400-560.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\920-680.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\920-680.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\FEZ-04-512.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\Icon_CommunityPortal.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\clear-cache-shortcut-chrome-0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\icons_icon-team.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\pdf-icon 1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\producteev-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\settings - 2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\JSDictionary\images\wow-contribution-icon.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
+    <list default="true" id="d88d01e8-43a4-4f23-b7cd-86bad0dc69e5" name="Default" comment="Release 1.2                    &#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JSLib.iws" />
@@ -263,12 +242,16 @@
       <created>1424852012532</created>
       <updated>1424852012532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Release 1.2                    &#10;">
+      <created>1424852385616</created>
+      <updated>1424852385616</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56179774" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59229535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -326,7 +309,8 @@
     </option>
     <MESSAGE value="VCS added" />
     <MESSAGE value="Settings page added.&#10;Contributors page also added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Settings page added.&#10;Contributors page also added." />
+    <MESSAGE value="Release 1.2                    &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release 1.2                    &#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

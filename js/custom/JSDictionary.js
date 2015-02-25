@@ -168,9 +168,44 @@ JSDictionary.controller("ContributorsCtrl", ["$scope", "$location", "$log", "$ht
                 "visibile": true
             },
             {
+                "name": "Sudarsan Babu",
+                "email": "sbgbabu@gmail.com",
+                "color": 3,
+                "privacy": 1,
+                "visibile": true
+            },
+            {
+                "name": "kannan",
+                "email": "mailformekannan@gmail.com",
+                "color": 4,
+                "privacy": 1,
+                "visibile": true
+            },
+            {
+                "name": "Senthilkumar",
+                "email": "senthilkumar151990@gmail.com",
+                "color": 1,
+                "privacy": 1,
+                "visibile": true
+            },
+            {
+                "name": "Bala Andrew",
+                "email": "sbalaandru@gmail.com",
+                "color": 2,
+                "privacy": 1,
+                "visibile": true
+            },
+            {
+                "name": "satheesh",
+                "email": "satheeshpa91@gmail.com",
+                "color": 3,
+                "privacy": 1,
+                "visibile": true
+            },
+            {
                 "name": "Raji",
                 "email": "raji@gmail.com",
-                "color": 3,
+                "color": 4,
                 "privacy": 2,
                 "visibile": false
             }
@@ -201,9 +236,16 @@ JSDictionary.controller("ContributorsCtrl", ["$scope", "$location", "$log", "$ht
             return (parseInt(privacy) === 1) ? true : false;
         };
 
+        ContributorsCtrl.clickToggle = function () {   
+            $('.contrib-box').on('click',function(){
+                $(this).toggleClass("bg-click-imp");
+                $(this).find('.user-snap').toggleClass("bg-w");   
+            });            
+        };
+                
         return ContributorsCtrl;
     })();
-
+    
     $scope.Contributors = ContributorsCtrl.list;
 
     $scope.goToSettings = function () {
@@ -216,6 +258,10 @@ JSDictionary.controller("ContributorsCtrl", ["$scope", "$location", "$log", "$ht
 
     $scope.privacyMng = function (privacy) {
         return ContributorsCtrl.privacyMng(privacy);
+    };
+
+    $scope.clickToggle = function () {
+        return ContributorsCtrl.clickToggle();
     };
 
 }]);
