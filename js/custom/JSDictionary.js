@@ -15,8 +15,6 @@ JSDictionary.config(function ($routeProvider) {
             templateUrl: "app/template/Contributors.html",
             controller: "ContributorsCtrl"
         });
-
-
 });
 
 JSDictionary.directive('ngEnter', function () {
@@ -154,6 +152,20 @@ JSDictionary.controller("ContributorsCtrl", ["$scope", "$location", "$log", "$ht
 
         ContributorsCtrl.list = [
             {
+                "name": "Bala Andrew",
+                "email": "sbalaandru@gmail.com",
+                "color": 2,
+                "privacy": 1,
+                "visibile": true
+            },
+            {
+                "name": "Kavitha A",
+                "email": "dhivyafalconit@gmail.com",
+                "color": 4,
+                "privacy": 2,
+                "visibile": true
+            },
+            {
                 "name": "Kirubhakaran",
                 "email": "kirubhag@gmail.com",
                 "color": 1,
@@ -189,13 +201,6 @@ JSDictionary.controller("ContributorsCtrl", ["$scope", "$location", "$log", "$ht
                 "visibile": true
             },
             {
-                "name": "Bala Andrew",
-                "email": "sbalaandru@gmail.com",
-                "color": 2,
-                "privacy": 1,
-                "visibile": true
-            },
-            {
                 "name": "satheesh",
                 "email": "satheeshpa91@gmail.com",
                 "color": 3,
@@ -203,9 +208,16 @@ JSDictionary.controller("ContributorsCtrl", ["$scope", "$location", "$log", "$ht
                 "visibile": true
             },
             {
+                "name": "Dhivya S",
+                "email": "dhivyafalconit@gmail.com",
+                "color": 4,
+                "privacy": 2,
+                "visibile": true
+            },
+            {
                 "name": "Raji",
                 "email": "raji@gmail.com",
-                "color": 4,
+                "color": 1,
                 "privacy": 2,
                 "visibile": false
             }
@@ -236,16 +248,16 @@ JSDictionary.controller("ContributorsCtrl", ["$scope", "$location", "$log", "$ht
             return (parseInt(privacy) === 1) ? true : false;
         };
 
-        ContributorsCtrl.clickToggle = function () {   
-            $('.contrib-box').on('click',function(){
+        ContributorsCtrl.clickToggle = function () {
+            $('.contrib-box').on('click', function () {
                 $(this).toggleClass("bg-click-imp");
-                $(this).find('.user-snap').toggleClass("bg-w");   
-            });            
+                $(this).find('.user-snap').toggleClass("bg-w");
+            });
         };
-                
+
         return ContributorsCtrl;
     })();
-    
+
     $scope.Contributors = ContributorsCtrl.list;
 
     $scope.goToSettings = function () {
